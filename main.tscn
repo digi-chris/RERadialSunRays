@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3 uid="uid://hay7hbv1cp62"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_qjsjl"]
+[ext_resource type="Script" uid="uid://bq3vrxgx4qvmh" path="res://main.gd" id="1_qjsjl"]
 [ext_resource type="PackedScene" uid="uid://bi5mlcmkojn1h" path="res://assets/sketchfab/shift_happens/scene.gltf" id="2_i5521"]
-[ext_resource type="Script" path="res://radial_sky_rays/radial_sky_rays.gd" id="2_sk7g2"]
+[ext_resource type="Script" uid="uid://c0v25ktod01j3" path="res://radial_sky_rays/radial_sky_rays.gd" id="2_sk7g2"]
 [ext_resource type="LabelSettings" uid="uid://ci6w1v6r1ycro" path="res://label_settings.tres" id="4_frs6v"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ptioq"]
@@ -52,7 +52,7 @@ camera_attributes = SubResource("CameraAttributesPractical_wjgpm")
 compositor = SubResource("Compositor_epc3m")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.595357, 0.500544, -0.628495, 0.0395373, 0.799538, 0.599313, 0.802488, 0.331956, -0.495801, 0.432422, 1.49795, -0.748976)
+transform = Transform3D(-0.595357, 0.500544, -0.628495, 0.0395373, 0.799538, 0.599313, 0.802488, 0.331956, -0.495801, 0, 0, -0.749)
 shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="."]
